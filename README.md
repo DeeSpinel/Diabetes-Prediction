@@ -31,8 +31,8 @@ Detected class imbalance: Non-diabetic cases significantly outnumbered diabetic 
 
 - Model Selection & Training
 Trained multiple models:
-✔ Random Forest
-✔ XGBoost
-✔ Logistic Regression
-✔ Naïve Bayes
+- Random Forest
+- XGBoost
+- Logistic Regression
+- Naïve Bayes
 Evaluated models using Accuracy, Precision, Recall, F1-score, and AUC.
