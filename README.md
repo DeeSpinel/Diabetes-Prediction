@@ -14,8 +14,8 @@ No Significant Improvement Despite Resampling: Various balancing techniques were
 
 # Solutions Attempted
 - Class Weight Adjustment: Assigning higher weights to the diabetic class to make the model pay more attention to it. (No significant recall improvement)
-- SMOTE (Synthetic Minority Over-sampling Technique): Generated synthetic diabetic cases to balance the dataset. (No major impact on recall; models still biased toward non-diabetic cases)
-- Different Model Architectures: Tried Random Forest, XGBoost, and Logistic Regression, but recall remained low across models.
+- SMOTE (Synthetic Minority Over-sampling Technique): Generated synthetic diabetic cases to balance the dataset.
+
 
 # Steps Followed:
 - Problem Definition & Business Understanding
@@ -36,3 +36,6 @@ Trained multiple models:
 - Logistic Regression
 - Naïve Bayes
 Evaluated models using Accuracy, Precision, Recall, F1-score, and AUC.
+
+
+-Feature Importance and selection
